@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: anurag-sharma-portfolio
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18
