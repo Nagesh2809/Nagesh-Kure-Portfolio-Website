@@ -1,4 +1,4 @@
-# Deploying Anurag Sharma Portfolio to Render
+# Deploying Nagesh Kure Portfolio to Render
 
 ## Prerequisites
 1. GitHub account
