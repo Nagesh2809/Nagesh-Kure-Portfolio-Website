@@ -15,9 +15,16 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "WhatsApp Visa Chatbot",
-    description: "Built a real-time Visa Assistance Chatbot using Rasa and Django. Integrated Gupshup API for WhatsApp automation and PostgreSQL for user query tracking. Deployed with Docker handling multilingual queries.",
-    tags: ["Rasa", "Django", "Gupshup API", "Docker", "PostgreSQL"],
+    title: "Automatic Number Plate Recognition (ANPR) System ",
+    description: "Developed a real-time ANPR system using YOLOv8 and OCR, achieving 92% recognition accuracy with image preprocessing for reliable number extraction. Integrated MySQL/Excel storage with duplicate prevention and built a FastAPI interface for vehicle data management and visualization across parking, toll, and law-enforcement use cases.",
+    tags: [
+    "Python",
+    "YOLOv8",
+    "PaddleOcr",
+    "OpenCV",
+    "MySQL",
+    "FastAPI"
+  ],
     imageUrl: "",
     repoUrl: "https://github.com/Nagesh2809",
     demoUrl: ""

@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           <Github className="w-5 h-5" />
         </a>
         <a
-          href="https://linkedin.com/in/anurag-sharma-q"
+          href="https://www.linkedin.com/in/nageshkure/"
           target="_blank"
           rel="noreferrer"
           className="text-slate-500 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors transform hover:-translate-y-1 duration-300"

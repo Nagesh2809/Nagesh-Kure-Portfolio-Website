@@ -5,39 +5,72 @@ import { RevealOnScroll } from './RevealOnScroll';
 const experiences: ExperienceType[] = [
   {
     id: 1,
-    company: "Plutos.One",
-    role: "AI/ML Developer",
-    period: "Sep 2025 - Present",
+    company: "Avineon India Private Limited",
+    role: "AI/ML Engineer",
+    period: "Oct 2025 - Present",
     description: [
-      "Built a production-grade Conversational AI Platform integrating LangChain, LangGraph, and Rasa for agentic workflow automation, handling 10K+ daily queries with 95% uptime.",
-      "Developed RAG-based retrieval systems using FAISS/ChromaDB vector stores for context-aware responses, improving query resolution accuracy by 25%.",
-      "Integrated FastAPI and Django REST Framework with asynchronous orchestration using Celery and Redis, reducing processing time by 35%.",
-      "Deployed containerized services with Docker, enhancing scalability and streamlining CI/CD pipelines for 50% faster deployments."
-    ],
-    technologies: ["LangChain", "Rasa", "FastAPI", "Django", "Redis", "Docker", "PostgreSQL", "FAISS"]
+    "Built the backend architecture for MAPCHAT, an AI-powered geospatial platform, developing agentic conversational and document-intelligence pipelines using FastAPI, LangChain, and LangGraph.",
+    "Designed multi-agent workflows with Human-in-the-Loop (HITL) and integrated Model Context Protocol (MCP) for reusable tool calling, enabling natural-language interaction with ArcGIS geospatial data.",
+    "Reduced LLM token consumption by ~50% and improved response accuracy from 80% to 90% through agent orchestration, validation, and prompt optimization using GPT-OSS 120B, with Redis-based conversational memory and Langfuse observability.",
+    "Developed a PDF/OCR document-intelligence pipeline using PaddleOCR (PP-OCRv5, PP-StructureV3) and YOLOv26 to extract structured geospatial and property information from scanned documents, achieving ~90% OCR extraction accuracy and ~95% object-detection accuracy."
+  ],
+  technologies: [
+    "LangChain",
+    "LangGraph",
+    "MCP",
+    "FastAPI",
+    "GPT-OSS",
+    "Redis",
+    "Langfuse",
+    "ArcGIS",
+    "PaddleOCR",
+    "YOLO",
+    "RAG",
+    "Computer Vision"
+  ]
   },
   {
     id: 2,
-    company: "DigiMonk Tech",
-    role: "Software Developer Intern",
-    period: "Jan 2024 - July 2024",
+    company: "CODETRU",
+    role: "Tech Intern",
+    period: "Apr 2025 - AUG 2025",
     description: [
-      "Developed an AI-driven Sales Dialer Agent integrating Vapi.ai and Twilio APIs for automated calling and lead engagement, boosting lead conversion rates by 25%.",
-      "Built REST APIs for managing call logs, transcripts, and analytics, reducing manual workflows by 40% and enabling real-time dashboards for sales teams."
-    ],
-    technologies: ["Vapi.ai", "Django", "Twilio", "PostgreSQL", "LangChain", "Docker"]
+    "Developed and optimized RESTful APIs for Ruto.ai using FastAPI, PostgreSQL, and SQLAlchemy ORM, improving request processing speed by 25%.",
+    "Designed modular database operations using SQLAlchemy and generic classes, improving code reusability, maintainability, and scalability.",
+    "Implemented Pydantic-based data validation, JWT authentication, and API pagination to improve reliability and secure application workflows.",
+    "Integrated Mailivery API to automate Gmail and Outlook workflows and support email-based application processes."
+  ],
+  technologies: [
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "SQLAlchemy",
+    "Pydantic",
+    "JWT",
+    "REST APIs",
+    "Mailivery API"
+  ]
   },
   {
     id: 3,
-    company: "Superchat LLC",
+    company: "Konu",
     role: "AI/ML Intern",
-    period: "June 2025 - Sep 2025",
+    period: "Feb 2025 - Apr 2025",
     description: [
-      "Engineered a workflow simulation platform similar to n8n using FastAPI and LangChain, enabling visual node-based process orchestration.",
-      "Developed a Kidney Stone Detection system using YOLO (Computer Vision) to analyze medical imaging with high precision.",
-      "Integrated PostgreSQL and VectorDB to handle complex state management and semantic search capabilities for the automation engine."
-    ],
-    technologies: ["FastAPI", "PostgreSQL", "VectorDB", "LangChain", "YOLO", "Computer Vision"]
+    "Built a multi-agent AI-powered real estate assistant for property search, financing, and EMI calculations, achieving ~90% response accuracy.",
+    "Developed intelligent query handling and tool-based workflows for retrieving company-specific information and generating context-aware responses.",
+    "Replaced legacy tool-wrapper integrations with Model Context Protocol (MCP), enabling seamless and modular tool calling with LLMs.",
+    "Resolved parsing issues and replaced deprecated libraries, improving application stability by ~15%."
+  ],
+  technologies: [
+    "Python",
+    "LangChain",
+    "MCP",
+    "RAG",
+    "LLMs",
+    "FAISS",
+    "AI Agents"
+  ]
   }
 ];
 

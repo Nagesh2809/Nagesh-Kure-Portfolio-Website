@@ -9,7 +9,7 @@ export const AIChat: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: '1',
-      text: "Hi! I'm JARVIS, Anurag's AI Assistant. Ask me anything about his skills, experience, or projects!",
+      text: "Hi! I'm JARVIS, Nagesh's  AI Assistant. Ask me anything about his skills, experience, or projects!",
       sender: ChatSender.SYSTEM,
       timestamp: new Date()
     }
@@ -194,7 +194,7 @@ export const AIChat: React.FC = () => {
               type="text"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              placeholder="Ask about Anurag's experience..."
+              placeholder="Ask about Nagesh's experience..."
               className="w-full bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 rounded-full py-3 pl-4 pr-12 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all border border-slate-200 dark:border-slate-700"
               disabled={isLoading}
             />

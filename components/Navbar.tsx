@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
               ))}
               <a
                 href="/resume.pdf"
-                download="Anurag_Sharma_Resume.pdf"
+                download="Nagesh_Kure_Resume.pdf"
                 className="bg-transparent border border-primary-500 text-primary-400 hover:bg-primary-500/10 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200"
               >
                 Resume
@@ -102,7 +102,7 @@ export const Navbar: React.FC = () => {
           ))}
           <a
             href="/resume.pdf"
-            download="Anurag_Sharma_Resume.pdf"
+            download="Nagesh_Kure_Resume.pdf"
             onClick={() => setIsOpen(false)}
             className="text-primary-400 block px-3 py-2 rounded-md text-base font-medium font-bold"
           >

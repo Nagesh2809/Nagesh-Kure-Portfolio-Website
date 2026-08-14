@@ -13,6 +13,7 @@ const ContainerIcon = ({ className }: { className: string }) => (
 const skills = [
   { name: 'Python (Expert)', icon: <Code2 className="w-4 h-4" /> },
   { name: 'LangChain / LangGraph', icon: <Brain className="w-4 h-4" /> },
+  { name: 'LangFuse', icon: <Brain className="w-4 h-4" /> },
   { name: 'LLM Fine-tuning (BERT,TinyLlama)', icon: <Brain className="w-4 h-4" /> },
   { name: 'Ollama / Local LLMs (gpt-oss,gemma,phi,llama,qwen)', icon: <Terminal className="w-4 h-4" /> },
   { name: 'RAG / Vector DBs', icon: <Database className="w-4 h-4" /> },
@@ -39,19 +40,19 @@ export const About: React.FC = () => {
           <div className="md:col-span-3 text-slate-600 dark:text-slate-400 space-y-6 text-lg leading-relaxed">
             <RevealOnScroll delay={200}>
               <p>
-                Hello! I'm Nagesh, an <span className="text-primary-600 dark:text-primary-400 font-medium">AI/ML Engineer</span> based in India. I have hands-on experience in designing scalable RAG-based chatbots, multi-agent conversational systems, and backend automation.
+                Hello! I'm Nagesh, an <span className="text-primary-600 dark:text-primary-400 font-medium">AI/ML Engineer</span> passionate about building intelligent, production-ready AI systems that solve real-world pnow roblems. My work focuses on <span className="text-primary-600 dark:text-primary-400 font-medium">Agentic AI, Generative AI, LLM applications, Computer Vision, and Document Intelligence.</span>
               </p>
             </RevealOnScroll>
 
             <RevealOnScroll delay={400}>
               <p>
-                My goal is to build innovative AI products that integrate advanced reasoning with real-world applications. I'm currently focused on agentic workflow automation using <span className="text-primary-600 dark:text-primary-400 font-medium">LangChain</span> and <span className="text-primary-600 dark:text-primary-400 font-medium">Rasa</span>, and optimizing retrieval systems for context-aware responses.
+                I build intelligent solutions using <span className="text-primary-600 dark:text-primary-400 font-medium">Python, LangGraph, LangChain, LangFuse, Redis, MCP, RAG, FastAPI, and modern LLMs, </span> with experience in multi-agent workflows, tool calling, OCR, object detection, and geospatial AI.
               </p>
             </RevealOnScroll>
 
             <RevealOnScroll delay={600}>
               <p>
-                I hold a B.Tech in Information Technology from ITM University, Gwalior.
+                I hold an MCA in Information Technology from Savitribai Phule Pune University (SPPU), Pune.
               </p>
 
               <div className="mt-8">

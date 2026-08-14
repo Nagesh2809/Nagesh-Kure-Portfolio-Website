@@ -38,7 +38,7 @@ export const Contact: React.FC = () => {
           <div className="mt-12 flex justify-center items-center gap-4">
             {/* Email */}
             <a
-              href="mailto:anuragparashar111@gmail.com"
+              href="mailto:nagesh.kure20@gmail.com@gmail.com"
               className="group relative p-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-white hover:bg-primary-600 dark:hover:bg-primary-500 transition-all duration-300 hover:scale-110 hover:shadow-lg"
               aria-label="Email"
             >
@@ -47,7 +47,7 @@ export const Contact: React.FC = () => {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/anurag-sharma-q"
+              href="https://www.linkedin.com/in/nageshkure/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-white hover:bg-[#0077B5] transition-all duration-300 hover:scale-110 hover:shadow-lg"
@@ -58,7 +58,7 @@ export const Contact: React.FC = () => {
 
             {/* GitHub */}
             <a
-              href="https://github.com/anurag26-q"
+              href="https://github.com/Nagesh2809"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-white hover:bg-slate-900 transition-all duration-300 hover:scale-110 hover:shadow-lg"
@@ -69,7 +69,7 @@ export const Contact: React.FC = () => {
 
             {/* Phone */}
             <a
-              href="tel:+919755617871"
+              href="tel:+919665388168"
               className="group relative p-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-white hover:bg-green-600 transition-all duration-300 hover:scale-110 hover:shadow-lg"
               aria-label="Phone"
             >
@@ -81,12 +81,12 @@ export const Contact: React.FC = () => {
           <div className="mt-6 space-y-2 text-sm text-slate-500 dark:text-slate-400">
             <p>
               <a href="mailto:anuragparashar111@gmail.com" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                anuragparashar111@gmail.com
+                nagesh.kure20@gmail.com
               </a>
             </p>
             <p>
-              <a href="tel:+919755617871" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                +91 97556 17871
+              <a href="tel:+919665388168" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                +91 9665388168
               </a>
             </p>
           </div>
